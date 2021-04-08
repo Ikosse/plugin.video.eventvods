@@ -215,7 +215,6 @@ class Eventvods():
         if not correct_team_found:
             return
 
-
         self.map_icon = self.game_icon
 
         items = []
