@@ -11,10 +11,10 @@ def time_to_seconds(time_string):
     pattern_units = re.compile("[0-9]+")
     units = re.split(pattern_units, time_string)
     time = re.split(pattern_time, time_string)
-    time_dict = dict(zip(units[1:], time[:-1]))
+    time_dict = dict(list(zip(units[1:], time[:-1])))
 
     seconds = 0
-    for (unit, sec) in time_dict.items():
+    for (unit, sec) in list(time_dict.items()):
         if unit.lower() == "d":
             seconds += int(sec)*86400
         elif unit.lower() == "h":

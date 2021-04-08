@@ -480,10 +480,10 @@ class Eventvods():
     def match_list(self, day):
         matches = self.weeks["contents"][self.week]["modules"][day]["matches2"]
         self.map_icon = self.event_logo
-        match_icon = self.event_logo
 
         items = []
         for (match_number, match) in enumerate(matches):
+            match_icon = self.event_logo
             url = "{0}?action=listmaps&match_id={1}&game={2}". \
                 format(self.addon_url, match["_id"],
                        self.game_slug)
