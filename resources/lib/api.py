@@ -188,11 +188,11 @@ class Eventvods():
                 continue
 
             try:
-                self.team_icon = team["icon"]
+                team_icon = team["icon"]
             except KeyError:
-                self.team_icon = self.game_icon
+                team_icon = self.game_icon
 
-            self._add_folder_item(items, title, url, self.team_icon,
+            self._add_folder_item(items, title, url, team_icon,
                                   self.game_fanart, sort_title=sort_title)
 
         self._end_folder(items,
@@ -216,7 +216,7 @@ class Eventvods():
             return
 
 
-        self.map_icon = self.team_icon
+        self.map_icon = self.game_icon
 
         items = []
         try:
