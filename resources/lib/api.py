@@ -525,7 +525,8 @@ class Eventvods():
             match_json = get_page_json(self.match_url + match_id)
             match_data = match_json["data"]
         except (AttributeError, KeyError):
-            pass
+            Dialog().ok(self.addon_name, self.localize(30032))
+            return
 
         items = []
         for (map_number, map_data) in enumerate(match_data):

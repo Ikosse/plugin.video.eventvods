@@ -148,6 +148,10 @@ msgctxt "#30031"
 msgid "Teams"
 msgstr "Lag"
 
+msgctxt "#30032"
+msgid "Failed to retrieve match information"
+msgstr "Misslyckades inhämta matchinformation"
+
 msgctxt "#30101"
 msgid "General"
 msgstr "Allmänt"

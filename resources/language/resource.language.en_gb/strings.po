@@ -144,6 +144,10 @@ msgctxt "#30031"
 msgid "Teams"
 msgstr ""
 
+msgctxt "#30032"
+msgid "Failed to retrieve match information"
+msgstr ""
+
 msgctxt "#30101"
 msgid "General"
 msgstr ""
