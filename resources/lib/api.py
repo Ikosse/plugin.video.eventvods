@@ -49,7 +49,7 @@ class Eventvods():
 
     # For caching class state between addon calls
     cache = translatePath(addon.getAddonInfo("profile") + "cache/")
-    resources = translatePath(addon.getAddonInfo("path") + "resources/images/")
+    resources = translatePath(addon.getAddonInfo("path") + "resources/media/")
 
     YOUTUBE = 0
     TUBED = 1
