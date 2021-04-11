@@ -117,8 +117,8 @@ msgid "Failed to retrieve match information"
 msgstr "Inhämtning av matchinformation misslyckades"
 
 msgctxt "#30024"
-msgid "Inhämtning av värdinformation misslyckades"
-msgstr ""
+msgid "Failed to retrieve staff information"
+msgstr "Inhämtning av värdinformation misslyckades"
 
 msgctxt "#30025"
 msgid "Maps"
