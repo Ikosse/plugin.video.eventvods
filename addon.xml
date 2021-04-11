@@ -15,7 +15,7 @@
         <summary lang="sv_SE">Få tillgång till de senaste esports-evenemangen helt utan spoilers.</summary>
     	<description lang="en_GB">This is an unofficial addon that gives you access to the latests esports events from eventvods.com.</description>
     	<description lang="sv_SE">Detta är ett inofficielt addon som ger dig tillgång till de senaste esports-evenemangen från eventvods.com.</description>
-        <license>GNU General Public License, v2</license>
+        <license>GPL-2.0-or-later</license>
         <platform>all</platform>
         <assets>
 			<icon>resources/icon.png</icon>
