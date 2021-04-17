@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.eventvods" name="Eventvods" version="1.0.1+matrix.1" provider-name="Ikosse">
     <requires>
-        <import addon="xbmc.python" 			version="3.0.0" />
+        <import addon="xbmc.python" 		version="3.0.0" />
         <import addon="script.module.requests"	version="2.22.0+matrix.1"/>
-        <import addon="plugin.video.tubed"		version="1.0.3+matrix.1" optional="true"/>
+        <import addon="plugin.video.tubed"	version="1.0.3+matrix.1" optional="true"/>
         <import addon="plugin.video.youtube" 	version="6.8.10+matrix.1"/>
         <import addon="plugin.video.twitch" 	version="2.5.3+matrix.1"/>
     </requires>
@@ -20,6 +20,7 @@
         <assets>
 		<icon>resources/icon.png</icon>
 		<fanart>resources/fanart.jpg</fanart>
+		<banner>resources/banner.jpg</banner>
 		<screenshot>resources/screenshot-01.jpg</screenshot>
 		<screenshot>resources/screenshot-02.jpg</screenshot>
 		<screenshot>resources/screenshot-03.jpg</screenshot>
